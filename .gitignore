@@ -1,0 +1,38 @@
+# Repository-wide local tooling and cache noise.
+**/.idea/
+**/.venv/
+**/.git_local_backup/
+**/__pycache__/
+**/.pytest_cache/
+**/.DS_Store
+**/*.pyc
+**/*~
+
+# Keep the root ignore file itself tracked.
+!.gitignore
+
+# Default to ignoring coursework contents, then explicitly allow the
+# portfolio-relevant files we want to keep tracked.
+/Coding Challenges/**
+!/Coding Challenges/**/
+!/Coding Challenges/**/solution.py
+!/Coding Challenges/**/tests.py
+!/Coding Challenges/**/README.txt
+!/Coding Challenges/**/readme.txt
+!/Coding Challenges/**/specs.md
+!/Coding Challenges/**/reasoning_questions.md
+!/Coding Challenges/**/cc4_reasoning_reflection.md
+!/Coding Challenges/**/CC4_img.png
+!/Coding Challenges/**/onezero.jpeg
+!/Coding Challenges/**/.guides/img/LRUCache.png
+
+/Projects/**
+!/Projects/**/
+!/Projects/**/solution.py
+!/Projects/**/tests.py
+!/Projects/**/README.txt
+!/Projects/**/readme.txt
+!/Projects/**/specs.md
+!/Projects/project01 starter package/img/**
+!/Projects/Project02 Starter Package/img/**
+!/Projects/Project03/img/**
